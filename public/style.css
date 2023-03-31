@@ -1,0 +1,30 @@
+.logo {
+    border-radius: 50%;
+}
+
+.thumbnail-in {
+transition: transform .28s ease;
+z-index: 3;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+overflow: hidden;
+border-radius: 5px;
+}
+
+.thumbnail-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #0a0a0a;
+    backface-visibility: hidden;
+    transition: transform .28s ease;
+    z-index: 4;
+}
